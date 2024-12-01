@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zepto Delivery Offers</title>
+    <style>
+        /* Global Styles */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #f6f8fc, #eef1f6);
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            padding: 20px;
+            background: #ff6b6b;
+            color: white;
+            font-size: 2rem;
+            animation: fadeInDown 1s ease-out;
+        }
+
+        /* Main Content */
+        .container {
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        /* Offer Card */
+        .offer-card {
+            width: 300px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transform: scale(0.95);
+            transition: transform 0.3s ease;
+        }
+
+        .offer-card:hover {
+            transform: scale(1);
+        }
+
+        .offer-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .offer-details {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .offer-title {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            color: #ff6b6b;
+        }
+
+        .offer-description {
+            font-size: 1rem;
+            margin-bottom: 15px;
+        }
+
+        .cta {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #ff6b6b;
+            color: white;
+            border-radius: 4px;
+            text-decoration: none;
+            transition: background 0.3s ease;
+        }
+
+        .cta:hover {
+            background: #e05555;
+        }
+
+        /* Animations */
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>🚴 Zepto Delivery Offers 🚀</header>
+    <div class="container">
+        <!-- Offer 1 -->
+        <div class="offer-card">
+            <img src="C:\Users\Maheshwari Nukala\OneDrive\Desktop\zepto.png" alt="Offer 1">
+            <div class="offer-details">
+                <h3 class="offer-title">20% Off Your First Order</h3>
+                <p class="offer-description">Enjoy 20% off on your first delivery with Zepto. Use code: FIRST20</p>
+                <a href="#" class="cta">Claim Offer</a>
+            </div>
+        </div>
+
+        <!-- Offer 2 -->
+        <div class="offer-card">
+            <img src="C:\Users\Maheshwari Nukala\OneDrive\Desktop\zepto.png" alt="Offer 2">
+            <div class="offer-details">
+                <h3 class="offer-title">Free Delivery Over ₹500</h3>
+                <p class="offer-description">Get free delivery when you order items worth ₹500 or more.</p>
+                <a href="#" class="cta">Shop Now</a>
+            </div>
+        </div>
+
+        <!-- Offer 3 -->
+        <div class="offer-card">
+            <img src="C:\Users\Maheshwari Nukala\OneDrive\Desktop\zepto.png" alt="Offer 3">
+            <div class="offer-details">
+                <h3 class="offer-title">Flash Sale: 10% Off</h3>
+                <p class="offer-description">Hurry! Get an extra 10% off during our flash sale. Limited time only!</p>
+                <a href="#" class="cta">Grab Deal</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
